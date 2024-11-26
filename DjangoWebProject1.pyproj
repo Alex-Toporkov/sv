@@ -96,7 +96,6 @@
     <Content Include="media\products\images\_D8E4905.jpg" />
     <Content Include="products\templates\products\run_tests.html" />
     <Content Include="pytest.ini" />
-    <Content Include="README.md" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
