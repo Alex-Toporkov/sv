@@ -1,0 +1,16 @@
+/* src/components/About.css */
+.about {
+    padding: 20px;
+    background-color: #f9f3e3; /* Светло-серый фон для отделения блока */
+    border-radius: 8px; /* Закругленные углы */
+    margin: 20px 0; /* Отступы сверху и снизу */
+}
+
+    .about h2 {
+        color: #333; /* Темный цвет заголовка */
+    }
+
+    .about p {
+        color: #666; /* Более светлый цвет текста */
+        line-height: 1.6; /* Высота строки для удобства чтения */
+    }

@@ -1,0 +1,43 @@
+.product-detail-container {
+    display: flex;
+    flex-direction: column; /* Располагает элементы в столбик */
+    align-items: center; /* Центрует элементы по горизонтали */
+    justify-content: center; /* Центрует элементы по вертикали */
+    text-align: center; /* Выравнивает текст по центру */
+    margin: 20px; /* Отступы вокруг контейнера */
+}
+
+.product-image {
+    max-width: 80%; /* Ограничивает ширину изображения */
+    height: auto; /* Сохраняет пропорции изображения */
+    margin-bottom: 20px; /* Отступ снизу от изображения */
+}
+
+.product-detail-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+}
+
+.product-image {
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.description-text {
+    transition: color 0.3s ease; /* Плавный переход цвета текста */
+}
+
+/* Дополнительные стили для интерактивных элементов */
+h3 {
+    cursor: pointer; /* Указатель при наведении */
+    color: #333; /* Начальный цвет заголовков */
+}
+
+    h3:hover {
+        text-decoration: underline; /* Подчеркивание при наведении */
+    }

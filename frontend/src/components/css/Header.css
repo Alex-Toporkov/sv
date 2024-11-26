@@ -1,0 +1,13 @@
+/* src/components/Header.css */
+.header 
+{
+    /* Убираем все внутренние элементы */
+    height: 150px; /* Высота будет определяться высотой изображения */
+    background-image: url('../header-bg.jpg'); /* Замените на путь к Вашему изображению */
+    background-size: cover; /* Покрытие всей области хедера */
+    background-repeat: no-repeat; /* Изображение не повторяется */
+    background-position: center; /* Изображение центрируется */
+    width: 100%; /* Хедер занимает всю ширину */
+    margin: 0; /* Убираем отступы */
+    padding: 0; /* Убираем отступы */
+}

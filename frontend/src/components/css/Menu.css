@@ -1,0 +1,15 @@
+.menu {
+    width: 250px; /* Ширина */
+    background-color: #f9f3e3; /* Фон */
+    padding: 10px; /* Отступы */
+}
+
+.menu-item {
+    color: black; /* Цвет текста меню */
+    padding: 10px;
+    cursor: pointer;
+}
+
+.submenu {
+    margin-left: 1em; /* Отступ для подменю */
+}

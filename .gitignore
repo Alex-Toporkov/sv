@@ -1,0 +1,18 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Django specific
+*.sqlite3
+/static/
+/media/
+.env
+
+# Node.js specific
+node_modules/
+npm-debug.log
+
+# VS Code
+.vscode/
+
+.vs/

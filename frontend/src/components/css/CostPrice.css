@@ -1,0 +1,43 @@
+/* src/css/components/CostPrice.css */
+.cost-price-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.cost-price-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+    .cost-price-table th,
+    .cost-price-table td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: center;
+    }
+
+    .cost-price-table th {
+        background-color: #f2f2f2;
+    }
+
+.pie-chart {
+    margin: 0 auto;
+    display: block;
+}
